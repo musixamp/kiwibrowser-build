@@ -1,6 +1,7 @@
 #!/bin/sh
 sudo apt-get update
 sudo apt-get install -y python openjdk-8-jdk-headless libncurses5 ccache
+sudo pip install vpython
 sudo update-java-alternatives --set java-1.8.0-openjdk-amd64
 git clone --depth 1 "https://github.com/wankaiming/kiwibrowser-src.git" src
 cd "$ROOT/src"
